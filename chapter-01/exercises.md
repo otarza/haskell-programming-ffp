@@ -55,9 +55,9 @@
    - (λb.ba)(a)c
    - aac
 7. (λxyz.xz(yz))(λx.z)(λx.a)
-i  - (λx.λy.λz.xz(yz))(λx.z)(λx.a)
-i  - (λy.λz1.(λx.z)z1(yz1))(λx.a)
-i  - (λz1.z((λx.a)(z1))
-i  - (λz1.z((λx.a)(z1))
-i  - (λz1.za)
+   - (λx.λy.λz.xz(yz))(λx.z)(λx.a)
+   - (λy.λz1.(λx.z)z1(yz1))(λx.a)
+   - (λz1.z((λx.a)(z1))
+   - (λz1.z((λx.a)(z1))
+   - (λz1.za)
 
