@@ -22,3 +22,18 @@
 1. λx.xxx - Normal
 2. (λz.zz)(λy.yy) - Diverge
 3. (λx.xxx)z - Normal
+
+### Beta reduce
+
+1. (λabc.cba)zz(λwv.w)
+   (λa.λb.λc.cba)(z)z(λw.λv.w)
+   (λb.λc.cbz)(z)(λw.λv.w)
+   (λc.czz)(λw.λv.w)
+   λw.λv.wzz
+   λv.zz
+   z
+2. (λx.λy.xyy)(λa.a)b
+   (λy.λa.ayy)b
+   λa.abb
+   bb
+
