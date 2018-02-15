@@ -4,7 +4,7 @@
 
 1. λxy.xz - answer: b - λmn.mz
 2. λxy.xxy - answer: c - λa(λb.aab)
-3. λxyz.zx - answer: c - λmnp.mn
+3. λxyz.zx - answer: b - λtos.st
 
 
 ## Chapter excercises
