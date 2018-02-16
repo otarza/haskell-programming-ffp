@@ -28,14 +28,20 @@ psquare x = 3.14 * (x * x)
 ```
 
 # Exercises: Parentheses and Association
-1. a) 8 + 7 * 9
-   b) (8 + 7) * 9
+1. 
+   - a) ```haskell 8 + 7 * 9```
+   - b) ```haskell (8 + 7) * 9```
+   
    Answer: Parentheses matter.
 
-2. a) perimeter x y = (x * 2) + (y * 2)
-   b) perimeter x y = x * 2 + y * 2
+2. 
+   - a) ```haskell perimeter x y = (x * 2) + (y * 2) ```
+   - b) ```haskell perimeter x y = x * 2 + y * 2 ```
+   
    Answer: Parentheses do not matter.
 
-3. a) f x = x / 2 + 9
-   b) f x = x / (2 + 9)
+3. 
+   - a) ```haskell  f x = x / 2 + 9 ```
+   - b) ```haskell f x = x / (2 + 9) ```
+   
    Answer: Parentheses matter.
